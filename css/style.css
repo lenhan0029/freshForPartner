@@ -1,0 +1,41 @@
+.menutop {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.menutop .menutop-left {
+  padding: 2%;
+  width: 48%;
+}
+
+.menutop .menutop-right {
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.menutop .menutop-right .menutop-right-item {
+  margin: 2%;
+  padding: 2%;
+  border-radius: 50%;
+}
+
+.menutop .menutop-right .menutop-right-item .fa {
+  font-size: 2vw;
+}
+
+.menutop .menutop-right .menutop-right-item:last-child {
+  padding: 2% 2.5%;
+}
+
+.menutop .menutop-right .menutop-right-item:hover {
+  background-color: #cecbcb;
+}
+/*# sourceMappingURL=style.css.map */

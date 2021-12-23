@@ -1,0 +1,29 @@
+// MENU TOP
+.menutop{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    .menutop-left{
+        padding: 2%;
+        width: 48%;
+    }
+    .menutop-right{
+        width: 48%;
+        display: flex;
+        justify-content: right;
+        .menutop-right-item{
+            margin: 2%;
+            padding: 2%;
+            border-radius: 50%;
+            .fa{
+                font-size: 2vw;
+            }
+        }
+        .menutop-right-item:last-child{
+            padding: 2% 2.5%;
+        }
+        .menutop-right-item:hover{
+            background-color: rgb(206, 203, 203);
+        }
+    }
+}
