@@ -1,17 +1,24 @@
-.menutop {
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.wrapper .menutop {
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  border-bottom: solid 1px black;
+  background-color: white;
 }
 
-.menutop .menutop-left {
+.wrapper .menutop .menutop-left {
   padding: 2%;
   width: 48%;
 }
 
-.menutop .menutop-right {
+.wrapper .menutop .menutop-right {
   width: 48%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,21 +28,143 @@
           justify-content: right;
 }
 
-.menutop .menutop-right .menutop-right-item {
+.wrapper .menutop .menutop-right .menutop-right-item {
   margin: 2%;
   padding: 2%;
   border-radius: 50%;
 }
 
-.menutop .menutop-right .menutop-right-item .fa {
+.wrapper .menutop .menutop-right .menutop-right-item .fa {
   font-size: 2vw;
 }
 
-.menutop .menutop-right .menutop-right-item:last-child {
+.wrapper .menutop .menutop-right .menutop-right-item:last-child {
   padding: 2% 2.5%;
 }
 
-.menutop .menutop-right .menutop-right-item:hover {
+.wrapper .menutop .menutop-right .menutop-right-item:hover {
   background-color: #cecbcb;
+}
+
+.wrapper .menuleft {
+  width: 8%;
+  position: fixed;
+  margin-top: 5.9%;
+  height: 100vh;
+  padding: 2%;
+  background-color: black;
+}
+
+.wrapper .menuleft .menuleft-item-wrapper .fa {
+  font-size: 2.7vw;
+  color: white;
+  margin: 5% 13%;
+}
+
+.wrapper .menuleft .menuleft-item-wrapper .menuleft-item {
+  margin: 1.5vw 2%;
+  padding: 5% 2% 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20%;
+}
+
+.wrapper .menuleft .menuleft-item-wrapper .menuleft-item:hover {
+  background-color: #cecbcb;
+}
+
+.wrapper .home-content {
+  width: 92%;
+  overflow: auto;
+  float: right;
+  padding: 0;
+  margin: 10% 0;
+}
+
+.wrapper .home-content .home-item {
+  margin: 5%;
+  width: 40%;
+  height: 33vw;
+  float: left;
+  border: solid 1px black;
+}
+
+.wrapper .home-content .home-item h4 {
+  margin: 5% 5% 0 5%;
+}
+
+.wrapper .home-content .home-item h6 {
+  margin: 0 5%;
+  color: #cecbcb;
+}
+
+.wrapper .calendar-content {
+  width: 92%;
+  overflow: auto;
+  float: right;
+  padding: 0;
+  margin: 10% 0;
+}
+
+.wrapper .calendar-content .calendar-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 5%;
+}
+
+.wrapper .calendar-content .calendar-filter select {
+  margin: 0 5%;
+}
+
+.wrapper .calendar-content .calendar-filter .calendar-pickday {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .calendar-content .calendar-filter .calendar-pickday .calendar-pickday-item {
+  border: solid 1px black;
+  padding: 10px;
+}
+
+.wrapper .calendar-content .table {
+  margin-top: 50px;
+}
+
+.wrapper .calendar-content .table .minimal-width {
+  min-width: 20vw;
+}
+
+.wrapper .calendar-content .table .no-working {
+  background-color: #cecbcb;
+}
+
+.wrapper .calendar-content .table .table-cell:hover {
+  background-color: #cecbcb;
+}
+
+.wrapper .calendar-content .table .cell {
+  text-align: center;
+}
+
+.wrapper .calendar-content .table .cell a {
+  opacity: 1;
+}
+
+.wrapper .calendar-content .table .cell:first-child {
+  width: 10%;
+}
+
+.wrapper .newappointment_content .calendar-pickday {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .newappointment_content .calendar-pickday .calendar-pickday-item {
+  border: solid 1px black;
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */

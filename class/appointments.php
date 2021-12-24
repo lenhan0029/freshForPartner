@@ -25,6 +25,9 @@ class AppointmentModel extends Database {
         while($row = mysqli_fetch_array($result)){
            $data[] = $row;
         }
+        if($data==[]){
+            return 1;
+        }
         return $data;
     }
     
