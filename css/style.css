@@ -1,3 +1,465 @@
+<<<<<<< HEAD
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.wrapper .menutop {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-bottom: solid 1px black;
+  background-color: white;
+}
+
+.wrapper .menutop .menutop-left {
+  padding: 2%;
+  width: 48%;
+}
+
+.wrapper .menutop .menutop-right {
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.wrapper .menutop .menutop-right .menutop-right-item {
+  margin: 2%;
+  padding: 2%;
+  border-radius: 50%;
+}
+
+.wrapper .menutop .menutop-right .menutop-right-item .fa {
+  font-size: 2vw;
+}
+
+.wrapper .menutop .menutop-right .menutop-right-item:last-child {
+  padding: 2% 2.5%;
+}
+
+.wrapper .menutop .menutop-right .menutop-right-item:hover {
+  background-color: #cecbcb;
+}
+
+.wrapper .menuleft {
+  width: 8%;
+  position: fixed;
+  margin-top: 5.9%;
+  height: 100vh;
+  padding: 2%;
+  background-color: black;
+}
+
+.wrapper .menuleft .menuleft-item-wrapper .fa {
+  font-size: 2.7vw;
+  color: white;
+  margin: 5% 13%;
+}
+
+.wrapper .menuleft .menuleft-item-wrapper .menuleft-item {
+  margin: 1.5vw 2%;
+  padding: 5% 2% 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20%;
+}
+
+.wrapper .menuleft .menuleft-item-wrapper .menuleft-item:hover {
+  background-color: #cecbcb;
+}
+
+.wrapper .home-content {
+  width: 92%;
+  overflow: auto;
+  float: right;
+  padding: 0;
+  margin: 10% 0;
+}
+
+.wrapper .home-content .home-item {
+  margin: 5%;
+  width: 40%;
+  height: 33vw;
+  float: left;
+  border: solid 1px black;
+}
+
+.wrapper .home-content .home-item h4 {
+  margin: 5% 5% 0 5%;
+}
+
+.wrapper .home-content .home-item h6 {
+  margin: 0 5%;
+  color: #cecbcb;
+}
+
+.wrapper .calendar-content {
+  width: 92%;
+  overflow: auto;
+  float: right;
+  padding: 0;
+  margin: 10% 0;
+}
+
+.wrapper .calendar-content .calendar-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 5%;
+}
+
+.wrapper .calendar-content .calendar-filter select {
+  margin: 0 5%;
+}
+
+.wrapper .calendar-content .calendar-filter .calendar-pickday {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .calendar-content .calendar-filter .calendar-pickday .calendar-pickday-item {
+  border: solid 1px black;
+  padding: 10px;
+}
+
+.wrapper .calendar-content .table {
+  margin-top: 50px;
+}
+
+.wrapper .calendar-content .table .minimal-width {
+  min-width: 20vw;
+}
+
+.wrapper .calendar-content .table .no-working {
+  background-color: #cecbcb;
+}
+
+.wrapper .calendar-content .table .table-cell:hover {
+  background-color: #cecbcb;
+}
+
+.wrapper .calendar-content .table .cell {
+  text-align: center;
+}
+
+.wrapper .calendar-content .table .cell a {
+  opacity: 1;
+}
+
+.wrapper .calendar-content .table .cell:first-child {
+  width: 10%;
+}
+
+.wrapper .newappointment_content .calendar-pickday {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .newappointment_content .calendar-pickday .calendar-pickday-item {
+  border: solid 1px black;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */
+
+/*thinh */
+.staff-container {
+  width: 92%;
+  overflow: auto;
+  float: right;
+  padding: 0;
+  margin: 10% 0;
+}
+.staff-container .staff-nav {
+  width: 100%;
+  padding: 4rem;
+  padding-top: 0;
+}
+.staff-container .line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: black;
+}
+
+.staff-container .staff-nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.staff-container .staff-nav ul li{
+  display: inline-block;
+  margin-right: 1rem;
+}
+.staff-container .staff-nav ul li a{
+  color: #787878;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.staff-container .staff-nav ul li a:hover{
+  color: black;
+}
+.staff-container .staff-nav ul li .active{
+  color: black;
+}
+.staff-container .staff-content{
+  width: 100%;
+  padding: 4rem;
+}
+.staff-container .staff-content .hours-tools{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.staff-container .staff-content .hours-tools .staff-options {
+  display: flex;
+  position: relative;
+}
+.staff-container .staff-content .hours-tools .staff-options select{
+  width: 12rem;
+  font-size: 17px;
+  height: 2.5rem;
+  padding: 0 20px;
+}
+.staff-container .staff-content .hours-tools .date-time {
+  display: flex;
+}
+
+.date-time .calendar-pickday {
+  display: flex;
+}
+
+.date-time .calendar-pickday .calendar-pickday-item {
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+}
+.staff-container .staff-content .schedule-wrapper {
+  display: flex;
+  position: relative;
+}
+.staff-container .staff-content .schedule-wrapper .schedule-table {
+  width: 100%;
+  margin-top: 30px; 
+  overflow-y: auto;
+}
+.staff-container .staff-content .schedule-wrapper .schedule-table .employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  user-select: none;
+}
+.staff-container .staff-content .schedule-wrapper .schedule-table table ,th,td{
+  border: 1px solid grey;
+
+}
+.staff-container .staff-content .schedule-wrapper .schedule-table thead tr th{
+    text-align: center;
+    font-size: 21px;
+    padding: 10px 0;
+
+}
+.staff-container .staff-content .schedule-wrapper .schedule-table tr{
+    height: 40px;
+}
+.staff-container .staff-content .schedule-wrapper .schedule-table .employee-name{
+    padding: 0 20px;
+    font-size: 21px;
+}
+.staff-container .staff-content .schedule-wrapper .schedule-table .employee-hours{
+  padding: 10px;
+  
+}
+.staff-container .staff-content .schedule-wrapper .schedule-table .employee-hours .hours{
+  background-color: #b4dff2;
+  padding: 0;
+  font-size: 21px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+.staff-container .staff-content .schedule-wrapper .schedule-table .employee-hours .hours:hover{
+  background-color: #b0d9ea;
+}
+
+.staff-container .staff-content .members-tools{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.staff-container .staff-content .members-tools{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.staff-container .staff-content .members-tools .member-control{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.staff-container .staff-content .members-tools .member-control .btn-Add{
+  background-color: #101928;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  padding: 1rem 2rem;
+}
+
+.staff-container .staff-content .members-tools .member-control .btn-Add:hover{
+  background-color: #404753;
+  border-color: transparent;
+}
+.staff-container .staff-content .members-tools .btn-Search{
+  background-color: #101928;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  margin-left: -30rem;
+}
+.staff-container .staff-content .members-tools .btn-Search:hover{
+  background-color: #404753;
+  border-color: transparent;
+}
+.staff-container .staff-content .members-tools .search-member , .search-member input{
+  border-radius: 5px;
+  height: 50px;
+  border : 1px solid #aeaeae;
+}
+.staff-container .staff-content .members-tools .search-member input{
+  padding: 1rem 2rem;
+  font-size: 19px;
+  font-weight: 600;
+}
+.staff-container .staff-content .members-list{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.staff-container .staff-content .members-list ul{
+  list-style: none;
+}
+.staff-container .staff-content .members-list ul li{
+  font-size: 21px;
+}
+.staff-container .staff-content .member-container{
+  width: 100%;
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border : 1px solid #aeaeae;
+  min-height: 120px;
+  cursor: pointer;
+}
+.staff-container .staff-content .member-container:hover{
+  border : 1px solid black;
+}
+.staff-container .staff-content .member-container .member-name{
+  width: 40%;
+}
+.staff-container .staff-content .member-container .member-name .name{
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.addStaff-wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.addStaff-wrapper .addStaff-nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.addStaff-wrapper .addStaff-nav .X{
+  font-size: 30px;
+  font-weight: 700;
+}
+.addStaff-wrapper .addStaff-nav .btn-Add{
+  background-color: #101928;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.addStaff-wrapper .addStaff-nav .btn-Add:hover{
+  background-color: #404753;
+  border-color: transparent;
+}
+.addStaff-wrapper .addStaff-container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.addStaff-wrapper .addStaff-container h1{
+  font-weight: 700;
+}
+.addStaff-wrapper .addStaff-container .add-form {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #aeaeae;
+}
+.addStaff-wrapper .addStaff-container .add-form h2{
+  border-bottom: 1px solid #aeaeae;
+  padding-bottom: 1rem; 
+}
+.addStaff-wrapper .addStaff-container .add-form form{
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.addStaff-wrapper .addStaff-container .add-form .main-form .staff-name{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.addStaff-wrapper .addStaff-container .add-form .main-form .staff-name .input {
+  width: 47%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.addStaff-wrapper .addStaff-container .add-form .main-form .staff-name .input input{
+  width: 100%;
+  height: 100%;
+}
+=======
 .wrapper {
   position: relative;
   width: 100%;
@@ -260,3 +722,4 @@
   overflow: auto;
 }
 /*# sourceMappingURL=style.css.map */
+>>>>>>> 316b73a1408f4b8018e2ef5d2d3da49b38a82227

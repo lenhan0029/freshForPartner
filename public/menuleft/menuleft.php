@@ -22,7 +22,9 @@
             <i class="fa fa-product-hunt"></i>
         </div>
         <div class="menuleft-item profile">
-            <i class="fa fa-user-circle-o"></i>
+            <a href="?page=staff">
+                <i class="fa fa-user-circle-o"></i>
+            </a>
         </div>
         <div class="menuleft-item promote">
             <i class="fa fa-bullhorn"></i>
