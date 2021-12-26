@@ -12,9 +12,10 @@
             $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
             $prev_date = date('Y-m-d', strtotime($date .' -1 day'));
             $next_date = date('Y-m-d', strtotime($date .' +1 day'));
+            $today = date('Y-m-d');
             ?>
             <div class="calendar-pickday-item"><a href="?page=calendar&prev=1&date=<?=$prev_date;?>"><i class="fa fa-chevron-left" aria-hidden="true"></i></a></div>
-            <div class="calendar-pickday-item"><a href="?page=calendar&today=1&date=<?=$date;?>">Today</a></div>
+            <div class="calendar-pickday-item"><a href="?page=calendar&today=1&date=<?=$today;?>">Today</a></div>
             <div class="calendar-pickday-item" id="day">
             <?php
                     // $mydate=getdate(date("U"));
@@ -24,7 +25,8 @@
                     }else if(isset($_GET['next'])){
                         echo $next_date;
                     }else{
-                        echo $date;
+                        
+                        echo $today;
                     }
                 ?>
             </div>

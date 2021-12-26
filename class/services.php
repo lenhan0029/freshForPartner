@@ -1,5 +1,4 @@
 <?php
-include '../../connection.php';
 
 
 class ServiceModel extends Database {
@@ -21,6 +20,15 @@ class ServiceModel extends Database {
     public function getServiceByStoreID($storeid){
         $conn = parent::connect();
         $sql = "SELECT * FROM services WHERE store_id='$storeid'";
+        $result = mysqli_query($conn,$sql);
+        while($row = mysqli_fetch_array($result)){
+           $data[] = $row;
+        }
+        return $data;
+    }
+    public function getServiceByID($id){
+        $conn = parent::connect();
+        $sql = "SELECT * FROM services WHERE id='$id'";
         $result = mysqli_query($conn,$sql);
         while($row = mysqli_fetch_array($result)){
            $data[] = $row;
